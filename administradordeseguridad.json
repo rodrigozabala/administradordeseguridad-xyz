@@ -1,0 +1,16 @@
+{
+  "Name": "Administrador de Seguridad",
+  "IsCustom": true,
+  "Description": "Permite gestionar políticas de seguridad y registros de auditoría. Sin acceso a aplicaciones o bases de datos.",
+  "Actions": [
+    "Microsoft.Authorization/policyAssignments/*",
+    "Microsoft.Insights/eventtypes/*"
+  ],
+  "NotActions": [
+    "Microsoft.Sql/*",
+    "Microsoft.Applications/*"
+  ],
+  "AssignableScopes": [
+    "/subscriptions/2a5d5f54-d4c4-4da7-98d4-a8213e843038"
+  ]
+}
