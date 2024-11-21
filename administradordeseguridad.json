@@ -1,5 +1,5 @@
 {
-  "Name": "Administrador de Seguridad",
+  "Name": "Administrador de Seguridad 01",
   "IsCustom": true,
   "Description": "Permite gestionar políticas de seguridad y registros de auditoría. Sin acceso a aplicaciones o bases de datos.",
   "Actions": [
